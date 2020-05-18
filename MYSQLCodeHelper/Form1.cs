@@ -31,6 +31,7 @@ namespace MYSQLCodeHelper
 			replacements.Add("System.Double", "double"); 
 			replacements.Add("System.DateTime", "DateTime");
 			replacements.Add("System.UInt64", "bool");
+			replacements.Add("System.UInt32", "int");
 			//replacements.Add()
 			tbxConnectString.Text = Properties.Settings.Default.ConnectionString;
 			tbxNamespace.Text = Properties.Settings.Default.Usernamespace;
